@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  .calendar-section {
+    .calendar-wrapper {
+      .rbc-calendar {
+        .rbc-toolbar-view {
+          display: flex;
+          justify-content: space-between;
+          .rbc-toolbar-group{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 16px;
+            .rbc-btn-group {
+              display: flex;
+              background-color: mediumpurple;
+            }
+          }
+        }
+      }
+    }
+  }
+}
